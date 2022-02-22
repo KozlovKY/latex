@@ -1,0 +1,55 @@
+\documentclass[14pt,a4paper, article,oneside]{extarticle}
+\usepackage[a4paper, mag=1000, left=2.5cm, right=1cm, top=2cm, bottom=2cm, headsep=0.7cm, footskip=1cm]{geometry}
+ \usepackage[T1,T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\graphicspath{{pictures/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+
+
+
+\begin{document}
+\renewcommand{\chaptername}{Лабораторная работа}
+\def\contentsname{Содержание}
+
+	\begin{titlepage}
+		\begin{center}
+			\textsc{НИУ ВШЭ\\[5mm]
+				Факультет физики}
+			
+			\vfill
+			\textbf{Отчет по лабораторной работе \\[3mm]
+				курса «Термодинамика»\\[6mm]
+				"Теплоемкость металлов "
+				\\[70mm]
+			}
+			
+		\end{center}
+		
+		\hfill
+		\begin{minipage}{.4\textwidth}
+			Студент:\\[2mm] 
+			Козлов Кирилл Юрьевич\\
+			Группа: БФ3202\\[5mm]
+			
+			
+			
+		\end{minipage}
+		\vfill
+		\begin{center}
+			Москва, 2021 г.
+		\end{center}
+	\end{titlepage}
+	
+	
+	\tableofcontents
+	\newpage
+	
+	\input{lab3}
+	
+\end{document}
